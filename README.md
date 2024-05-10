@@ -33,6 +33,7 @@ while True:
                 c.send("Not Found".encode())
 
 ## OUTPUT - ARP
+![WhatsApp Image 2024-05-10 at 10 55 27_33cd99d9](https://github.com/Purajiths/2c.ARP_RARP_PROTOCOLS/assets/145548193/6b023d23-53a1-48c6-ad66-73e633b8d886)
 
 
 
@@ -48,7 +49,6 @@ while True:
     print("MAC Address",s.recv(1024).decode())
 
 ## OUPUT -RARP
-![WhatsApp Image 2024-05-10 at 10 55 27_431aa428](https://github.com/Purajiths/2c.ARP_RARP_PROTOCOLS/assets/145548193/5eafe4f1-2883-4540-9f7c-9d93c849075a)
 
 ![WhatsApp Image 2024-05-10 at 10 55 31_2053b133](https://github.com/Purajiths/2c.ARP_RARP_PROTOCOLS/assets/145548193/f786e973-2783-4634-b682-07bdbf81c578)
 
