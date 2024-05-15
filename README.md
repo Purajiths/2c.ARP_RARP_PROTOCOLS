@@ -18,7 +18,7 @@ stored.
 P
 ## PROGRAM - ARP
 ## CLIENT:
-
+```
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000)) 
@@ -31,7 +31,7 @@ while True:
                 c.send(address[ip].encode()) 
             except KeyError: 
                 c.send("Not Found".encode())
-
+```
 ## OUTPUT - ARP
 ![WhatsApp Image 2024-05-10 at 10 55 27_33cd99d9](https://github.com/Purajiths/2c.ARP_RARP_PROTOCOLS/assets/145548193/6b023d23-53a1-48c6-ad66-73e633b8d886)
 
@@ -39,7 +39,7 @@ while True:
 
 ## PROGRAM - RARP
 ## SERVER:
-
+```
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -47,7 +47,7 @@ while True:
     ip=input("Enter logical Address : ")
     s.send(ip.encode())
     print("MAC Address",s.recv(1024).decode())
-
+```
 ## OUPUT -RARP
 
 ![WhatsApp Image 2024-05-10 at 10 55 31_2053b133](https://github.com/Purajiths/2c.ARP_RARP_PROTOCOLS/assets/145548193/f786e973-2783-4634-b682-07bdbf81c578)
